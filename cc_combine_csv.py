@@ -1,3 +1,8 @@
+"""
+This module provides a function combine_csv() which takes csv files as the inputs and combines these files to a single csv file
+"""
+
+
 import csv
 
 def combine_csv(*files):
