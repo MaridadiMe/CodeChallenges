@@ -2,6 +2,11 @@
 
 let us solve sudoku, this might be challenging but we must solve it
 
+I first defined coordinates corresponding to different squares in a sudoku matrix.
+then going through each element with value 0 as long as the game is not yet solved, check which elements are missing in the square where it is contained
+For the list of missing numbers i will then check if there is a number that uniquely fits that position if there is i will then update the matrix else 
+I will continue to check other positions until the game is solved.
+
 
 """
 
