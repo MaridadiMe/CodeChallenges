@@ -1,5 +1,8 @@
 
-
+"""
+The function roll_dice() takes input that are outcomes of rolling dice and uses monte carlo's method to determine 
+the probability that the given outcomes will occur
+"""
 import random
 
 
