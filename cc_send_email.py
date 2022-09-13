@@ -1,5 +1,6 @@
 """
 This module provides a function to send an email
+My implementation used mailtrap as smtp server
 """
 
 
@@ -7,11 +8,11 @@ import smtplib
 from socket import gaierror
 
 HOST = 'smtp.mailtrap.io'
-SENDER = 'margwesehoseho@gmail.com'
+SENDER = 'youremail@email.someting'
 PORT = 465
 USERNAME = '2ba88706ee649b'
 PASSWORD = '64176ac6ccb018'
-RECEIVER = 'norbertseho@gmail.com'
+RECEIVER = 'receiveremail@gmail.com'
 
 message = f"""\
 Subject: Hi Mailtrap
