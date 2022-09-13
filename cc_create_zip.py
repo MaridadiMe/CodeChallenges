@@ -1,5 +1,6 @@
 """
-This module will take a folder path and create a zip archive
+This module provides a function that takes a path(file/folder) and create a zip archive for all files with extensions in the listed file_extensions.
+It also keeps the directory structure
 
 
 """
@@ -24,5 +25,6 @@ def create_zip(input_path, file_extensions, output_path):
 
             
 if __name__ == '__main__':
+    #write test code here
     create_zip('../code_challenge', ['.csv'], 'csv.zip')
         
