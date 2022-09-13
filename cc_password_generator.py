@@ -1,3 +1,10 @@
+"""
+generate_password() function generates a passphrase depending on the length specified i.e. word_count. 
+i used diceware wordlist that i converted to a dictionary and used that dictionary to randomly select words from the dictionary
+"""
+
+
+
 from cc_save_retrieve_dictionary import *
 import random
 
